@@ -28,7 +28,7 @@ searchSet=(e)=>{
     <div className="App">
       <Form className="form1">
         <Form.Group controlId="formBasicSearch">
-		     <Form.Control type="email" placeholder="Enter something to search" onChange={this.searchSet}/>
+		     <Form.Control type="text" placeholder="Enter something to search" onChange={this.searchSet}/>
 		      <Button onClick={this.getRecipes}>
 		         Search</Button>
 	    </Form.Group>
